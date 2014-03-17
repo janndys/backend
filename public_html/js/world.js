@@ -57,6 +57,7 @@ window.onload = function(){
             
             elemento.addEventListener('mousemove', function(evt) {
                 var mousePos = getMousePos(elemento, evt);
+                
                 var message = 'Posición Mouse: X: ' + mousePos.x + ', Y: ' + mousePos.y;
                 writeMessage(message);
               }, false);
