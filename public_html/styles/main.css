@@ -23,3 +23,24 @@ html, body
 	left:0;
 	cursor:crosshair;
 }
+.cad #paper2{
+	/*1245*0.618*/
+	width:600px;
+	height:30px;
+	border: 1px solid #000000;
+	position:relative;
+	top:0;
+	left:0;
+}
+.cad #titulo{
+	
+	width:600px;
+	height:50px;
+        color: white;
+        text-align: center;
+        font-size:36px;
+	position:relative;
+	top:0;
+	left:0;
+}
+
